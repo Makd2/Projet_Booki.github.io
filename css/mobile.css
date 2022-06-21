@@ -1,0 +1,294 @@
+/*max-width:768px*/
+@media screen and (max-width: 768px) {
+    header {
+      flex-direction: column;
+      flex-wrap: wrap;
+      font-size: 16px;
+      align-content: center;
+    }
+  
+    .logo {
+      width: 120px;
+      margin-top: 35px;
+      margin-bottom: 0px;
+      align-self: center;
+    }
+  
+    .lien_ancre {
+      display: flex;
+      margin: 30px;
+    }
+  
+    nav {
+      width: 100%;
+    }
+  
+    .menu_top {
+      font-size: 16px;
+      display: flex;
+      flex-direction: row;
+      border-bottom: 2px solid #f2f2f2;
+      border-right: none;
+    }
+  
+    .element_menu1,
+    .element_menu2 {
+      padding-bottom: 15px;
+      padding-top: 30px;
+      width: 50%;
+      text-align: center;
+    }
+  
+    .element_menu1:hover,
+    .element_menu2:hover {
+      border-bottom: 2px solid #0065fc;
+      border-top: none;
+      font-weight: normal;
+    }
+    /*fin header*/
+  
+    h1,
+    h3 {
+      display: flex;
+      font-size: 20px;
+      margin-top: 20px;
+      margin-left: 30px;
+    }
+  
+    h2,
+    h4 {
+      font-size: 16px;
+      margin-top: 20px;
+      margin-left: 30px;
+    }
+  
+    form {
+      width: 100%;
+    }
+  
+    .research {
+      justify-content: center;
+      margin-left: 10px;
+    }
+  
+    .fa-location-dot {
+      font-size: 15px;
+      height: 30px;
+      width: 40px;
+      border-radius: 10px 0px 0px 10px;
+    }
+  
+    #city {
+      padding: 20px;
+      font-size: 16px;
+      height: 30px;
+      width: 60%;
+      border: 1px solid #f2f2f2;
+    }
+  
+    #rechercher {
+      display: none;
+    }
+  
+    .fa-magnifying-glass {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      background-color: #0065fc;
+      font-size: 15px;
+      height: 40px;
+      width: 40px;
+      border: #f2f2f2 1px solid;
+      border-radius: 0px 10px 10px 0px;
+      font-size: 15px;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .filters {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .list_filters {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+  
+    .filtre_e,
+    .filtre_f,
+    .filtre_r,
+    .filtre_a {
+      padding-right: 0px;
+    }
+  
+    .filtre_r {
+      bottom: 50px;
+    }
+  
+    .filtre_a {
+      bottom: 70px;
+    }
+  
+    .info {
+      margin: 0px;
+    }
+  
+    .fa-info {
+      top: -25px;
+      margin-left: 15px;
+    }
+  
+    .plus_de_500 {
+      margin-top: 0px;
+      margin-bottom: 0px;
+      position: relative;
+      bottom: 50px;
+      right: 15px;
+    }
+  
+    .list_filters {
+      padding-left: 20px;
+    }
+  
+    .principal1_2 {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  
+    .bloc1,
+    .bloc2,
+    .bloc3 {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .cards_most_popular {
+      border: 0px;
+      border-radius: 0px;
+      margin: 0px;
+      background-color: #f2f2f2;
+    }
+  
+    .cards_stay_marseille {
+      border: 0px;
+      border-radius: 0px;
+      margin: 0px;
+      background-color: white;
+      padding: 0;
+    }
+  
+    .auberge_cannebiere,
+    .hotel_port,
+    .hotel_mouettes,
+    .hotel_amina,
+    .hotel_mer,
+    .auberge_panier {
+      height: 110px;
+    }
+  
+    .poptab {
+      width: 90%;
+      height: 130px;
+      margin-bottom: 20px;
+      align-self: center;
+    }
+  
+    .card1,
+    .card2 {
+      width: 90%;
+      height: 190px;
+      margin-bottom: 30px;
+      align-self: center;
+    }
+  
+    .heb1,
+    .heb2 {
+      position: initial;
+    }
+  
+    .heb3 {
+      font-size: 16px;
+    }
+  
+    .card-body1,
+    .card-body2 {
+      bottom: 77%;
+    }
+  
+    .plus {
+      margin-top: 20px;
+      margin-left: 20px;
+      margin-bottom: 30px;
+    }
+  
+    .activities_marseille {
+      margin: 0px;
+    }
+  
+    .activities {
+      flex-direction: column;
+    }
+  
+    p {
+      position: initial;
+    }
+  
+    .stars1,
+    .stars2 {
+      margin-left: 12px;
+      position: initial;
+    }
+  
+    .stars3-1,
+    .stars3-2,
+    .stars3-3 {
+      margin-left: 15px;
+      position: relative;
+    }
+  
+    .stars3-1,
+    .stars3-3 {
+      top: 15px;
+    }
+  
+    .stars3-2 {
+      top: 15px;
+    }
+  
+    .vieux_p,
+    .parc_c {
+      height: 130px;
+      width: 100%;
+      border-radius: 20px 20px 0px 0px;
+      object-fit: cover;
+    }
+  
+    .act1,
+    .act2,
+    .act3,
+    .act4,
+    .act5,
+    .act6 {
+      width: 90%;
+      height: 160px;
+      align-self: center;
+    }
+  
+    .act2_3,
+    .act5_6 {
+      width: 100%;
+    }
+  
+    .price1,
+    .price2 {
+      position: initial;
+    }
+  
+    footer {
+      flex-direction: column;
+    }
+  }
+  
