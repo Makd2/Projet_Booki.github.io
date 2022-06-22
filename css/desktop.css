@@ -334,10 +334,11 @@ body {
     margin-top: 5px;
   }
   
-  .plus {
+  .bloc2plus {
     font-weight: bold;
     margin-left: 20px;
     margin-top: 40px;
+    margin-bottom: 10px;
   }
   
   .cards_most_popular {
