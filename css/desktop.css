@@ -330,8 +330,7 @@ body {
   .heb3 {
     font-size: 16px;
     font-weight: bold;
-    margin-left: 12px;
-    margin-top: 5px;
+    margin: 0;
   }
   
   .bloc2plus {
@@ -369,6 +368,10 @@ body {
   
   .card-body3 {
     width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 12px;
   }
   
   .hotel_soleil,
@@ -400,7 +403,6 @@ body {
   }
   
   .price3 {
-    margin-left: 12px;
     margin-bottom: 10px;
   }
   
@@ -414,7 +416,6 @@ body {
   .stars3-1,
   .stars3-2,
   .stars3-3 {
-    margin-left: 12px;
     font-size: 14px;
   }
   
