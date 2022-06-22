@@ -136,9 +136,6 @@ body {
     border: #f2f2f2 1px solid;
     border-left: 0px;
     border-radius: 0px 10px 10px 0px;
-    position: relative;
-    right: 50px;
-    bottom: 1px;
     width: 10%;
   }
   
@@ -151,20 +148,18 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    border-radius: 0px 20px 20px 0px;
-    margin-right: 0px;
-    margin-left: 0px;
   }
   
   .filtre_e,
   .filtre_f,
   .filtre_r,
   .filtre_a {
-    margin: 0px;
-    padding-left: 30px;
-    padding-right: 10px;
-    position: relative;
-    bottom: 30px;
+    border: 3px solid #F2F2F2;
+    font-size: large;
+    margin: 0px 24px 8px 0px;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
   }
   
   .filtre_e:hover,
@@ -178,8 +173,9 @@ body {
   }
   
   .filtres {
-    margin-top: 20px;
-    margin-right: 20px;
+    margin: 0px;
+    padding: 20px;
+    padding-left: 30px;
   }
   
   .eco,
@@ -189,9 +185,9 @@ body {
     list-style: none;
     padding-right: 15px;
     font-weight: bold;
-    padding-left: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
   
   .fa-money-bill-wave,
@@ -199,32 +195,34 @@ body {
   .fa-heart,
   .fa-dog {
     color: #0065fc;
-    background-color: #deebff;
-    border: 2px solid #deebff;
-    border-radius: 30px;
-    padding-left: 11px;
-    padding-right: 11px;
-    padding-top: 11px;
-    padding-bottom: 11px;
-    position: relative;
-    right: 20px;
-    top: 40px;
-    font-size: 15px;
+    background-color: #DEEBFF;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    margin: -3px;
   }
   
   .list_filters_effect {
-    border: 2px solid lightgray;
     border-radius: 0px 30px 30px 0px;
     border-left: none;
-    margin-right: 15px;
+    height: fit-content;
   }
   
   .info {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
     margin-bottom: 20px;
   }
   
   .plus_de_500 {
-    margin-left: 70px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    padding-top: 7px;
   }
   
   .fa-info {
@@ -233,11 +231,9 @@ body {
     padding-left: 10px;
     padding-right: 10px;
     color: #0065fc;
-    font-size: 12px;
+    font-size: 16px;
     border: 2px solid #f2f2f2;
     border-radius: 50px;
-    position: relative;
-    top: 20px;
     margin-left: 30px;
     margin-right: 10px;
   }
@@ -246,7 +242,7 @@ body {
     background-color: #f2f2f2;
     margin-right: 10px;
     border-radius: 20px;
-    width: 70%;
+    width: 65%;
   }
   
   #hebergements {
@@ -310,29 +306,16 @@ body {
     box-shadow: 0px 5px 15px #0065fc;
   }
   
-  .card-image1,
-  .card-image2 {
-    height: 253px;
-    position: relative;
-    overflow: hidden;
-  }
-  
   .auberge_cannebiere,
   .hotel_port,
   .hotel_mouettes,
   .hotel_amina,
   .hotel_mer,
   .auberge_panier {
-    height: 40%;
+    height: 90px;
     width: 100%;
     border-radius: 20px 20px 0 0;
     object-fit: cover;
-  }
-  
-  .card-body1,
-  .card-body2 {
-    position: relative;
-    bottom: 35%;
   }
   
   .heb1,
@@ -342,8 +325,6 @@ body {
     margin-left: 12px;
     margin-bottom: 10px;
     margin-top: 10px;
-    position: relative;
-    bottom: 95px;
   }
   
   .heb3 {
@@ -363,14 +344,14 @@ body {
     background-color: #f2f2f2;
     margin-left: 10px;
     border-radius: 20px;
-    width: 25%;
+    width: 30%;
   }
   
   .card3 {
     display: flex;
     flex-direction: row;
     width: 90%;
-    height: 125px;
+    height: 110px;
     margin: 10px;
     background-color: white;
     border: 2px solid white;
@@ -389,17 +370,13 @@ body {
     width: 70%;
   }
   
-  .card-image3 {
-    width: 50%;
-  }
-  
   .hotel_soleil,
   .chambres_eau,
   .hotel_bleu_blanc {
     height: 100%;
     object-fit: cover;
     border-radius: 20px 0px 0px 20px;
-    width: 100%;
+    width: 100px;
   }
   
   .fa-star {
@@ -418,24 +395,18 @@ body {
   .price2 {
     margin-left: 12px;
     margin-bottom: 10px;
-    position: relative;
-    bottom: 100px;
     font-size: 14px;
   }
   
   .price3 {
     margin-left: 12px;
     margin-bottom: 10px;
-    position: relative;
-    bottom: 20px;
   }
   
   .stars1,
   .stars2 {
     margin-left: 12px;
     margin-top: 10px;
-    position: relative;
-    bottom: 105px;
     font-size: 14px;
   }
   
@@ -444,16 +415,6 @@ body {
   .stars3-3 {
     margin-left: 12px;
     font-size: 14px;
-    position: relative;
-  }
-  
-  .stars3-1,
-  .stars3-3 {
-    bottom: 10px;
-  }
-  
-  .stars3-2 {
-    bottom: 15px;
   }
   
   .activities_marseille {
