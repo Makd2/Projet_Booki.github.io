@@ -177,6 +177,12 @@
       margin-bottom: 30px;
       align-self: center;
     }
+
+    .hotel_soleil,
+    .chambres_eau,
+    .hotel_bleu_blanc {
+      width: 168px;
+      }
   
     .card1,
     .card2 {
